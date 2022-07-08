@@ -8,8 +8,26 @@
     <script src="./figuras.js"></script>
 </head>
 <body>
-    <h1>
-        Figuras geométricas
-    </h1>
+    <header>
+        <h1>
+            Figuras geométricas
+        </h1>
+        <p>Primer Taller</p>
+    </header>
+    <section>
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuanto minde cada del cuadrado:
+            </label>
+            <input type="number" id="InputCuadrado">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()"">
+                Calcular área
+            </button>
+        </form>
+    </section>
 </body>
 </html>
